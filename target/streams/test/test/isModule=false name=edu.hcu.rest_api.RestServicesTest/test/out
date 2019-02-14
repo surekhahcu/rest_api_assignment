@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRestServicesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRest service [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should save record to pdf repository [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update record of pdf [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete the record of given id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Get the content of given id's pdf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Get All The Pdfs[0m[0m
