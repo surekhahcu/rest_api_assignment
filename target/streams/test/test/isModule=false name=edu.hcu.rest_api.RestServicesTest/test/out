@@ -4,4 +4,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should update record of pdf [0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should delete the record of given id[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should Get the content of given id's pdf[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should Get All The Pdfs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should Get All The Pdfs *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "...ays be available in [all the] test cases","id":1}..." did not equal "...ays be available in [rest Services] test cases","id":1}..." (RestServicesTest.scala:72)[0m[0m
