@@ -5,11 +5,11 @@ import akka.http.scaladsl.testkit.ScalatestRouteTest
 import akka.http.scaladsl.unmarshalling.Unmarshaller._
 import org.mockito.Mockito._
 import org.scalatest.mockito.MockitoSugar
-import org.scalatest.{BeforeAndAfter, Matchers, WordSpec}
+import org.scalatest.{Matchers, WordSpec}
 
 import scala.concurrent.Future
 
-class RestServicesTest extends WordSpec with Matchers with ScalatestRouteTest with BeforeAndAfter with MockitoSugar {
+class RestServicesTest extends WordSpec with Matchers with ScalatestRouteTest with MockitoSugar {
 
   val mockedPdfRepository = mock[PdfRepository]
 
@@ -56,7 +56,8 @@ class RestServicesTest extends WordSpec with Matchers with ScalatestRouteTest wi
         FileData("This pdf content is for the testCase of method getAll", Some(2))))
 
       Get("/pdf/getAll") ~> restService.route ~> check {
-        responseAs[String] shouldEqual """[{"data":"This pdf content will always be available in rest Services test cases","id":1},{"data":"This pdf content is for the testCase of method getAll","id":2}]"""
+        responseAs[String] shouldEqual
+          """[{"data":"This pdf content will always be available in rest Services test cases","id":1},{"data":"This pdf content is for the testCase of method getAll","id":2}]"""
       }
     }
 
