@@ -17,7 +17,7 @@ class PdfRepositoryTest extends FunSuite with BeforeAndAfter {
   before {
     try {
       Await.result(Connection.db.run(pdf.filesTableQuery.schema.create), 10 seconds)
-      pdf.create(FileData("This pdf content will always be available in all the test cases", Some(1)))
+      Await.result( pdf.create(FileData("This pdf content will always be available in all the test cases", Some(1))), 10 seconds)
     } catch {
       case NonFatal(th) =>
         th.printStackTrace()

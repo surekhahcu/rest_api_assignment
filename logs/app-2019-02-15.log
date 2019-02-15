@@ -42,3 +42,27 @@
 [34m[INFO][0;39m - [2019-02-15 17:00:00,850] - [edu.hcu.rest_api.PdfRepository] Creating object.... FileData(This pdf content will always be available in all the test cases,Some(1))
 [34m[INFO][0;39m - [2019-02-15 17:00:01,241] - [edu.hcu.rest_api.PdfRepository] Creating object.... FileData(This pdf content will always be available in all the test cases,Some(1))
 [34m[INFO][0;39m - [2019-02-15 17:00:01,598] - [edu.hcu.rest_api.PdfRepository] Creating object.... FileData(This pdf content will always be available in all the test cases,Some(1))
+[34m[INFO][0;39m - [2019-02-15 17:56:17,736] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 17:56:18,224] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 17:56:18,254] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 17:56:18,278] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...
+[34m[INFO][0;39m - [2019-02-15 17:56:53,244] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 17:56:53,645] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 17:56:53,670] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 17:56:53,696] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...
+[34m[INFO][0;39m - [2019-02-15 17:57:12,396] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 17:57:12,748] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 17:57:12,774] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 17:57:12,795] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...
+[34m[INFO][0;39m - [2019-02-15 17:59:29,639] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 17:59:30,091] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 17:59:30,115] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 17:59:30,133] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...
+[34m[INFO][0;39m - [2019-02-15 17:59:52,566] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 17:59:52,942] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 17:59:52,969] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 17:59:52,990] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...
+[34m[INFO][0;39m - [2019-02-15 18:00:08,115] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This is test case data"}
+[34m[INFO][0;39m - [2019-02-15 18:00:08,414] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request Json {"data":"This content is for update test case","id": 1}
+[34m[INFO][0;39m - [2019-02-15 18:00:08,451] - [edu.hcu.rest_api.RestServicesTest$$anon$1] Request id 1
+[34m[INFO][0;39m - [2019-02-15 18:00:08,479] - [edu.hcu.rest_api.RestServicesTest$$anon$1] All pdf data...

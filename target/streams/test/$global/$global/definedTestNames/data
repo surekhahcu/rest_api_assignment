@@ -1,1 +1,1 @@
-["edu.hcu.rest_api.PdfRepositoryTest","edu.hcu.rest_api.RestServicesTest"]
+["edu.hcu.rest_api.RestServicesTest","edu.hcu.rest_api.PdfRepositoryTest"]
