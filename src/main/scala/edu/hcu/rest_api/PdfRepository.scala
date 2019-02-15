@@ -11,7 +11,6 @@ class PdfRepository extends Logging {
 
   def create(fileData: FileData): Future[Int] =
     Connection.db.run {
-      info("Creating object.... " + fileData)
       (filesTableAutoInc += fileData)
 
     }
