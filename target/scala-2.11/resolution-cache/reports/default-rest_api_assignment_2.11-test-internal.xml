@@ -7,8 +7,20 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190214135732"/>
+		date="20190215154044"/>
 	<dependencies>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.9.5" status="release" pubdate="20121014154023" resolver="public" artresolver="public" homepage="http://www.mockito.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="113">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="successful" details="" size="1040" time="603" location="/home/surekha/.ivy2/cache/org.mockito/mockito-all/ivy-1.9.5.xml" searched="true" original-local-location="/home/surekha/.ivy2/cache/org.mockito/mockito-all/ivy-1.9.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom"/>
+				<caller organisation="default" name="rest_api_assignment_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="successful" details="" size="1581066" time="2132" location="/home/surekha/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.h2database" name="h2">
 			<revision name="1.4.187" status="release" pubdate="20150410220333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="112">
 				<metadata-artifact status="no" details="" size="2181" time="0" location="/home/surekha/.ivy2/cache/com.h2database/h2/ivy-1.4.187.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187.pom"/>

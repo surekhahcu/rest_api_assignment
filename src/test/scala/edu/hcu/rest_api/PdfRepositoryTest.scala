@@ -8,6 +8,7 @@ import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
 import scala.util.control.NonFatal
 
+
 class PdfRepositoryTest extends FunSuite with BeforeAndAfter {
 
   val pdf = new PdfRepository
@@ -37,8 +38,8 @@ class PdfRepositoryTest extends FunSuite with BeforeAndAfter {
     val resultFuture: Future[Int] = pdf.create(FileData("This content is for creating pdf test case"))
     val result: Int = Await.result(resultFuture, 10 seconds)
     assert(result === 2)
-
   }
+
 
   test("Update Pdf") {
     val resultFuture: Future[Int] = pdf.update(FileData("This content is for updating the existing pdf data", Some(1)))
@@ -64,5 +65,6 @@ class PdfRepositoryTest extends FunSuite with BeforeAndAfter {
     val result = Await.result(resultFuture, 10 seconds)
     assert(result === List(FileData("This pdf content will always be available in all the test cases", Some(1))))
   }
+
 
 }

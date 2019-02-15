@@ -1,19 +1,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mPdfRepositoryTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Save pdf data[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Update Pdf *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'regex_assignment.FileData' doesn't exist[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.Util.getInstance(Util.java:383)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Update Pdf[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Delete Pdf[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m-  Get Pdf By Id *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Some(FileData(This pdf content will always be available in rest Services test cases,Some(1))) did not equal Some(FileData(This pdf content will always be available in all the test cases,Some(1))) (PdfRepositoryTest.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m-  Get Pdf By Id[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Get All The Pdfs[0m[0m

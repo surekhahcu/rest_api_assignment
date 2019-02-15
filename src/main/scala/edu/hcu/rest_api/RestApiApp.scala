@@ -19,3 +19,5 @@ object RestApiApp extends App {
   println(s"Rest service is running on $port")
 
 }
+
+

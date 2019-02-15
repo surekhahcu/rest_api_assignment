@@ -4,7 +4,7 @@
 		module="rest_api_assignment_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20190214135732"
+		publication="20190215154044"
 	>
 		<description>
 		rest_api_assignment
@@ -42,5 +42,6 @@
 		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.11" rev="10.0.10" conf="test->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.4.187" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.9.5" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

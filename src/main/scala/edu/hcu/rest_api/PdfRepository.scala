@@ -6,12 +6,13 @@ import slick.driver.MySQLDriver.api._
 import scala.concurrent.Future
 
 
-class PdfRepository {
+class PdfRepository extends Logging {
 
 
-  def create(files: FileData): Future[Int] =
+  def create(fileData: FileData): Future[Int] =
     Connection.db.run {
-      (filesTableAutoInc += files)
+      info("Creating object.... " + fileData)
+      (filesTableAutoInc += fileData)
 
     }
 
@@ -25,8 +26,8 @@ class PdfRepository {
 
   def getById(id: Int): Future[Option[FileData]] =
     Connection.db.run {
-    filesTableQuery.filter(_.id === id).result.headOption
-  }
+      filesTableQuery.filter(_.id === id).result.headOption
+    }
 
   def getAll(): Future[List[FileData]] = Connection.db.run {
     filesTableQuery.to[List].result

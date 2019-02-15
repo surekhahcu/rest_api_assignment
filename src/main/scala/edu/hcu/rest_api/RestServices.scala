@@ -8,12 +8,11 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 
-object RestServices extends Logging {
-
+trait RestServices extends Logging {
 
   import JsonUtility._
 
-  val pdfObject = new PdfRepository
+  val pdfObject: PdfRepository
 
   val route: Route =
     path("pdf" / "save") {
@@ -22,7 +21,7 @@ object RestServices extends Logging {
           pdfJson =>
             complete {
               info("Request Json " + pdfJson)
-              val pdf = parse(pdfJson).extract[FileData]
+              val pdf: FileData = parse(pdfJson).extract[FileData]
               pdfObject.create(pdf)
               "Pdf created"
             }
@@ -72,6 +71,7 @@ object RestServices extends Logging {
       path("pdf" / "getAll") {
         get {
           complete {
+            info("All pdf data...")
             val pdfsFuture: Future[List[FileData]] = pdfObject.getAll()
             pdfsFuture.map { pdfData => write(pdfData)
             }
@@ -79,5 +79,13 @@ object RestServices extends Logging {
 
         }
       }
+
+
+}
+
+
+object RestServices extends RestServices {
+
+  override val pdfObject: PdfRepository = new PdfRepository
 
 }

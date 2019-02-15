@@ -15,7 +15,8 @@ libraryDependencies ++= Seq(
   "org.json4s" %% "json4s-native" % "3.5.0",
   "com.typesafe.akka" %% "akka-http-testkit" % "10.0.10" % Test,
   "org.scalatest" %% "scalatest" % "3.0.5" % Test,
-  "com.h2database" % "h2" % "1.4.187" % "test"
+  "com.h2database" % "h2" % "1.4.187" % "test",
+  "org.mockito" % "mockito-all" % "1.9.5" % Test
 )
 
 
